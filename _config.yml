@@ -16,10 +16,9 @@
 title: Yi Xian
 email: ysoo@wisc.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  This is Yi Xian's personal website.
+This is Yi Xian's personal website.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://xiansoo.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "http://www.xiansoo.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ysoo
 
 # Build settings
