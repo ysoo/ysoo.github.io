@@ -2,6 +2,7 @@
 layout: post
 title:  "Using Jekyll with GitHub Pages"
 date:   2018-10-01 19:45:46 -0500
+permalink: /blog/:title
 ---
 
 I skipped classes today because the day started out bad and it was also raining all day. And since I played hooky, I had to do something productive else I'll feel totally useless. So, today I used Jekyll to create a website. It was especially difficult and annoying as I have a Windows system.
@@ -26,13 +27,15 @@ Fork an existing Jekyll repository. But, depending on the directory, you may hav
 gem install jekyll bundler
 {% endhighlight %}
 
-4. Now the fun part. You get to build it and run in on a local server. Probably localhost:4000
+4. Now the fun part. You get to build it and run in on a local server. Probably http://localhost:4000
 
 {% highlight ruby %}
 bundle exec jekyll serve
 {% endhighlight %}
 
-This is all outlined in the Jekyll documents. However, to deploy it github pages, you would need to head to your Gemfile and comment out the jekyll version line, while uncommenting the github-pages line.
+This is used instead of "jekyll serve" if you have a gemfile.
+
+This is all outlined in the [Jekyll documents](https://jekyllrb.com/docs/). However, to deploy it github pages, you would need to head to your Gemfile and comment out the jekyll version line, while uncommenting the github-pages line.
 
 Commit and push your file to [username].github.io and you should be done! Your brand new website should be on https://[username].github.io
 
