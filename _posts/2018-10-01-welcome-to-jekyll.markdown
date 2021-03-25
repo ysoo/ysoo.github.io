@@ -5,8 +5,6 @@ date:   2018-10-01 19:45:46 -0500
 permalink: /blog/:title
 ---
 
-I skipped classes today because the day started out bad and it was also raining all day. And since I played hooky, I had to do something productive else I'll feel totally useless. So, today I used Jekyll to create a website. It was especially difficult and annoying as I have a Windows system.
-
 1. You would want to download Ruby. On a Windows system, you would be using the Ruby installer. Make sure to add it to the PATH so that you can use it through your command line.
 
 2. Run the below command within the directory that you want to create your website in.
@@ -39,9 +37,4 @@ This is all outlined in the [Jekyll documents](https://jekyllrb.com/docs/). Howe
 
 Commit and push your file to [username].github.io and you should be done! Your brand new website should be on https://[username].github.io
 
-Since this is my first post, I obviously don't really know how to use Jekyll yet. There is a series on YouTube by Mike Dane called Jekyll - Static Site Generator that I'm planning to go through. If you see this site and it actually looks good, it means I've skipped another day of classes.
-
-Next things to do:
--Adding my portfolio / resume
--Making this website look awesome
--Make my own theme cause my creative side needs some exercise
+There is a series on YouTube by Mike Dane called Jekyll - Static Site Generator that I'm planning to go through.
