@@ -175,7 +175,7 @@ combinationSum([2, 3, 6], 6)
 
 So, I imagine this as a decision tree. At each call of the `backtrack` method, we decide between including the current element, or excluding the current element and including the next element instead. 
 
-###Time and Space Complexity:
+##Time and Space Complexity:
 
 First Implementation (With for Loop):
 
