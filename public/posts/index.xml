@@ -20,7 +20,8 @@
       <link>https://ysoo.github.io/posts/sentiment-analysis/part2/</link>
       <pubDate>Tue, 03 Sep 2024 11:10:04 -0700</pubDate>
       <guid>https://ysoo.github.io/posts/sentiment-analysis/part2/</guid>
-      <description>Summary of Part 1 Implementation In this article, I want to write down the learning journey as I try to implement BERT (Bidirectional Encoder Representations from Transformers) on the IMDB movie reviews database</description>
+      <description>Summary of Part 1 In the previous article in this series,
+Implementation In this article, I want to write down the learning journey as I try to implement BERT (Bidirectional Encoder Representations from Transformers) on the IMDB movie reviews database</description>
     </item>
     <item>
       <title>Sentiment Analysis: Part 3</title>
