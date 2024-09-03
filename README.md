@@ -1,0 +1,1 @@
+[![Deploy Hugo site to Pages](https://github.com/ysoo/ysoo.github.io/actions/workflows/hugo.yaml/badge.svg)](https://github.com/ysoo/ysoo.github.io/actions/workflows/hugo.yaml)

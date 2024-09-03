@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yi Xian Soo</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ysoo.github.io/</link>
     <description>Recent content on Yi Xian Soo</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Sep 2024 00:21:29 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ysoo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lorem Ipsum</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://ysoo.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 03 Sep 2024 00:21:29 -0700</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://ysoo.github.io/posts/my-first-post/</guid>
       <description>This is the first post in this.
 I want to make a concious effort to write more and write better. Especially as I learn throughout my life and career, I have lost a lot of information to this brain of mine, who can&amp;rsquo;t seem to hold on to anything.
 I have a few grand aunts that happen to have Alzheimers. While 23andme claim that it doesn&amp;rsquo;t run in my genes. With the rate that I don&amp;rsquo;t remember things.</description>
