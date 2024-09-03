@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: 'https://yixiansoo.com/'
 languageCode: en-us
-title: My New Hugo Site
+title: Yi Xian Soo
 theme: ["PaperMod"]
