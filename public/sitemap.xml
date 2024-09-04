@@ -2,40 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/nlp/</loc>
+    <loc>https://ysoo.github.io/tags/nlp/</loc>
     <lastmod>2024-09-03T11:10:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://ysoo.github.io/posts/</loc>
     <lastmod>2024-09-03T11:10:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sentiment-analysis/</loc>
+    <loc>https://ysoo.github.io/tags/sentiment-analysis/</loc>
     <lastmod>2024-09-03T11:10:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sentiment-analysis/part1/</loc>
+    <loc>https://ysoo.github.io/posts/sentiment-analysis/part1/</loc>
     <lastmod>2024-09-03T11:10:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sentiment-analysis/part2/</loc>
+    <loc>https://ysoo.github.io/tags/</loc>
     <lastmod>2024-09-03T11:10:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sentiment-analysis/part3/</loc>
+    <loc>https://ysoo.github.io/</loc>
     <lastmod>2024-09-03T11:10:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-09-03T11:10:04-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-09-03T11:10:04-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/general/</loc>
+    <loc>https://ysoo.github.io/tags/general/</loc>
     <lastmod>2024-09-03T00:21:29-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>https://ysoo.github.io/posts/my-first-post/</loc>
     <lastmod>2024-09-03T00:21:29-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://ysoo.github.io/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ysoo.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://ysoo.github.io/search/</loc>
   </url>
 </urlset>
