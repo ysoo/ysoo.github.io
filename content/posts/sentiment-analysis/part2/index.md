@@ -7,9 +7,12 @@ keywords = ['NLP', 'Sentiment Analysis']
 ShowToc = true
 +++
 
-### Summary of Part 1
+#### From the previous episode
 
-In the previous article in this series, 
+In the previous article in this series, we talked about different models that exists out there for semantic analysis.
 
 ### Implementation
-In this article, I want to write down the learning journey as I try to implement BERT (Bidirectional Encoder Representations from Transformers) on the IMDB movie reviews database
+
+In this article, I want to write down the learning journey as I try to implement **BERT** (Bidirectional Encoder Representations from Transformers) on the IMDB movie reviews database.
+
+I will be using PyTorch and a Jupyter Notebook on this journey.

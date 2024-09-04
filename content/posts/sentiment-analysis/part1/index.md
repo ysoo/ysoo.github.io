@@ -70,7 +70,19 @@ Exploding Gradient Problem
 
 #### What are Word Embeddings?
 
-For RNNs, to adapt them for usage in natural language, we need to have a way to represent words in the form that a neural network would understand. Word embeddings are one way of doing them in a way that captures semantic information
+For RNNs, to adapt them for usage in natural language, we need to have a way to represent words in the form that a neural network would understand. Word embeddings are one way of doing them in a way that captures semantic relationships between words. 
+
+For example: 
+```
+{
+    "dog": 1
+    "cat": 2
+    "apple": 30 -> since apple is rarely used with dog or cat
+}
+```
+
+- Word2Vec
+- GloVe
 
 #### What are Attention Mechanisms?
 
@@ -90,8 +102,14 @@ Goal: Identify and attend to most important features in input
 
 ![alt text](attention-mechanism.png#center)
 
-CoVe
-ElMo
+CoVe (Context Vectors)
+ - Originally trained for machine translating tasks
+ - Contextualizled word embeddings that are pre-trained on machine translation 
+
+ElMo (Embeddings from Language Models)
+- Contextualized Word Embeddings
+- bidirectional LSTM Network to create word embeddings
+- Transfer Learning 
 ULMFiT
 
 #### What are Transformers
