@@ -20,7 +20,7 @@ params:
     - name: github
       url: "https://github.com/ysoo"
     - name: linkedin
-      url: "https://www.linkedin.com/ysoo"
+      url: "https://www.linkedin.com/in/ysoo"
 menu:
   main:
     - identifier: archives
@@ -38,3 +38,13 @@ outputs:
     - HTML
     - RSS
     - JSON
+markup:
+  goldmark:
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+    extensions:
+      extras:
+        subscript:
+          enable: true
+        superscript:
+          enable: true
