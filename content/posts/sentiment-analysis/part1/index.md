@@ -42,6 +42,8 @@ For simplicity, I have asked ChatGPT to summarize the improvements in sentiment 
 - **2021-2022**: GPT-3 and multilingual models like XLM-R enabled few-shot and zero-shot learning in sentiment analysis.
 - **2023-Present**: Sentiment analysis reached human-level accuracy with models like GPT-3 excelling in few-shot, zero-shot learning, and multimodal data analysis.
 
+In this series, I think I might omit traditional ML models. While very interesting and is the basis for a lot of the information that we have today, I think my interest lies more in deep learning (at the moment) and less so on classic machine learning.
+
 #### What are Recurrent Neural Networks?
 
 I think this article assumes that we know what recurrent neural networks are. I think a pretty good learning resource for this is Ava and Alexander Amini's lecture series on YouTube. While I think the lecture on recurrent neural network itself wasn't the best out of the lecture series, it gave me a good idea on what it is. In fact, nearly all the graphics in this article are pulled from their lecture series.
@@ -70,9 +72,10 @@ Exploding Gradient Problem
 
 #### What are Word Embeddings?
 
-For RNNs, to adapt them for usage in natural language, we need to have a way to represent words in the form that a neural network would understand. Word embeddings are one way of doing them in a way that captures semantic relationships between words. 
+For RNNs, to adapt them for usage in natural language, we need to have a way to represent words in the form that a neural network would understand. Word embeddings are one way of doing them in a way that captures semantic relationships between words.
 
-For example: 
+For example:
+
 ```
 {
     "dog": 1
@@ -81,44 +84,54 @@ For example:
 }
 ```
 
+Examples of some embeddings
+
 - Word2Vec
 - GloVe
 
 #### What are Attention Mechanisms?
 
-Recurrence is expensive. To solve it, we only take into consideration what is deserving of our attention.
-
-1. Identify which parts to attend to
-2. Extract the features with high attention
-
-Goal: Identify and attend to most important features in input
+Recurrence is expensive. To solve it, we only take into consideration what is deserving of our attention. The goal of attention mechanisms are to identify which parts within the input to attend to and extract the features with high attention.
 
 1. Encode position information
 2. Extract query, key, value for search
 3. Compute attention weighting
    - Take the query and key vectors, and compute pairwise similarity (using cosine similarity)
-4. Extract features with high attention
-   ( Andrej Kaparthy makemore )
+4. Extract features with high attention \*
+
+^\*Andrej Kaparthy's lecture series on creating makemore has been helpful to me in understanding this^
 
 ![alt text](attention-mechanism.png#center)
 
-CoVe (Context Vectors)
- - Originally trained for machine translating tasks
- - Contextualizled word embeddings that are pre-trained on machine translation 
+**CoVe (Context Vectors)**
 
-ElMo (Embeddings from Language Models)
+- Originally trained for machine translating tasks
+- Contextualizled word embeddings that are pre-trained on machine translation
+
+**ElMo (Embeddings from Language Models)**
+
 - Contextualized Word Embeddings
 - bidirectional LSTM Network to create word embeddings
-- Transfer Learning 
-ULMFiT
+- Transfer Learning
+
+**ULMFiT (Universal Language Model Fine-tuning)**
+
+- Transfer Learning
 
 #### What are Transformers
 
-Recurrent neural network that is built on attention. It is essentially, multiple attention mechanisms that are put together
+Recurrent neural network that are built on attention. It is essentially, multiple attention mechanisms that are put together.
 
-BERT
-BERT is a transformer-based model pre-trained on large corpora and then fine-tuned for specific tasks like sentiment analysis. It uses a bidirectional approach to understand context, significantly improving sentiment classification.
+**BERT**
 
-GPT
+- Transformer-based model pre-trained on large corpora
+- Uses a bidirectional approach to understand context
+
+**GPT**
+
+- Transformer-based model
+- Autoregressive model -> meaning it generates text by predicting the next word (or token) based on the previous context. (in comparison to BERT which is a bidirectional model)
 
 #### What is few-shot and zero-shot learning?
+
+Essentially, the ability for pre trained models are used for different purposes and instead of training those models for the purposes that we intend for them to do, we are not giving them any task specific information.
