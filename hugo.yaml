@@ -1,0 +1,50 @@
+baseURL: "https://ysoo.github.io/"
+languageCode: en-us
+title: Yi Xian Soo
+theme: ["PaperMod"]
+enableEmoji: true
+features:
+  ["responsive", "single-column", "blog", "cover-image", "table-of-contents"]
+params:
+  env: production
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  homeInfoParams:
+    Title: ":wave: hello there"
+    Content: Hi, this is Yi Xian. I’m documenting my learning notes here.
+  socialIcons:
+    - name: github
+      url: "https://github.com/ysoo"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/ysoo"
+menu:
+  main:
+    - identifier: archives
+      name: archives
+      url: /archives/
+    - identifier: search
+      name: search
+      url: /search/
+    - identifier: tags
+      name: tags
+      url: /tags/
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+markup:
+  goldmark:
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+    extensions:
+      extras:
+        subscript:
+          enable: true
+        superscript:
+          enable: true
