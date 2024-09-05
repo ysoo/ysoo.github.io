@@ -5,6 +5,9 @@ theme: ["PaperMod"]
 enableEmoji: true
 features:
   ["responsive", "single-column", "blog", "cover-image", "table-of-contents"]
+googleAnalytics: G-KKN70YML09
+minify:
+  minifyOutput: true
 params:
   env: production
   ShowShareButtons: true
